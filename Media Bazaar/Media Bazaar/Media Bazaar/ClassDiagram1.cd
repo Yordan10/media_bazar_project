@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Media_Bazaar.Admin">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAgEAGACAFAAAAECAAAAJAEAodgACBgAAAA=</HashCode>
+      <FileName>Management Classes\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Administration_Form" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/2LxQbFMA/p0oNII6AGJ2ImrgRNbgb5I8zyqh5RkEDc=</HashCode>
+      <FileName>Forms\Administration Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.AdministrationManagement" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAhAABAAAAAAAAAAAgAgAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Management Classes\AdministrationManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.DBConnection" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEDNAEGEsQESTATgCVIhQJwaBoMABgQAIwCgQAQoY=</HashCode>
+      <FileName>DataBaseConnections\DBConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.DepotWorker" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>dAorIw3ghmZF8VUM7UCRfmrmIyl9oVSHvf8PazZpF6w=</HashCode>
+      <FileName>Forms\DepotWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.EmployeeDataObject" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAIABgA=</HashCode>
+      <FileName>Employees\EmployeeDataObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Administrator" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.DepoWorker">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAA=</HashCode>
+      <FileName>Employees\DepoWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Employee">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QwIAAEAACCBgAAggBiAGoAESAEIAAAACBAgAAgoADoE=</HashCode>
+      <FileName>Employees\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Manager">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.SaleRepresentative" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAAAAAAAAAAAAAAAAABAAAAEQAQAAAAAAAA=</HashCode>
+      <FileName>Employees\SaleRepresentative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Login_Form" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAAAAAACAgAACCAAgCJAAAgAAAQAAAAA=</HashCode>
+      <FileName>Forms\Login Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.LoginDataObject" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAgAgAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Employees\LoginDataObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Managment_Form" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+EKh1GTSEDNwvhGSya2IAAJHMJPoCTrSgG6JKZEBqLg=</HashCode>
+      <FileName>Forms\Managment Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Position" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAIABgA=</HashCode>
+      <FileName>Schedule\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Product">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAEAAAAEAAAAAAAAACAUAAAgAAgAAAIBBgA=</HashCode>
+      <FileName>Product\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.ProductType" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\ProductType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Program" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.SalesManagement" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAEABAEAAAAAA=</HashCode>
+      <FileName>Management Classes\SalesManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.SalesRepresentative" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEMABXEAgKBFwRYGZBqEQKEKiAkwGQBc8KggjBMkICA=</HashCode>
+      <FileName>Forms\SalesRepresentative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.StatisticsManagement">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAEAAAACAAAAAAAAAAAIAABAAIAKAAJAoAAAAAAAA=</HashCode>
+      <FileName>Management Classes\StatisticsManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Stock" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAFAACAAAAAAAAAAgA=</HashCode>
+      <FileName>Stock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Properties.Resources" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABAQAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Media_Bazaar.Properties.Settings" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Media_Bazaar.RequestStatus" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\RequestStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

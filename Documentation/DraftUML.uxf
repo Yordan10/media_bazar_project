@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>0</y>
+      <w>300</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>/AbstractClass/
+Employee
+--
+# id : int
+# firstName: string
+# surname : string
+# phoneNumber: int
+# address : string
+# birthDate : DateTime
+# email : string
+# isMarried : bool
+# bsn : int
+# functions : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>100</y>
+      <w>350</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Account
+--
+- username : string
+- password : string
+--
++ Account(username: string, password : string)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>420</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>DepoWorker
+-
+-startDate: DateTime
+-certificates: string //can be enum
+-spokenLanguages: string
+-
++ Depoworker()
++ GetWorker(): bool
++ ToString() : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>420</y>
+      <w>250</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>SalesRepresentative
+-
+- startDate: DateTime
+- certificates: string // can be enum
+- spokenLanguages: string
+- speeksDutchAndEnglish : bool
+--
++ SalesPrepresentative()
++ GetWorker() : bool
++ ToString : string
+/more methods
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>280</y>
+      <w>130</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;110.0;110.0;10.0;110.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>280</y>
+      <w>30</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1060</x>
+      <y>280</y>
+      <w>190</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;170.0;110.0;170.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>240</y>
+      <w>310</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0;290.0;150.0;290.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>420</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Administrator
+--
+
+--
++ Administrator()
++ ToString() : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>240</y>
+      <w>80</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;150.0;10.0;150.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>280</y>
+      <w>460</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>440.0;10.0;440.0;110.0;10.0;110.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>420</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Manager
+--
+
+--
++ Manager()
++ ToString() : string
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>640</y>
+      <w>180</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Form1
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>650</y>
+      <w>270</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>AdministrationManagement
+--
+
+--
++ Hire(employee: Employee): bool
++ Fire(employee: Employee): bool
++ GetEmployee(id: int) : void
++ AssignShift() : bool
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>720</y>
+      <w>230</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+
+1 + administrationManagment</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>240</y>
+      <w>330</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0;310.0;150.0;310.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>650</y>
+      <w>180</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>ManagerManagement
+--
+
+--
++GetStock(id: int): void
++GetEmployee(int id): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>560</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+1 .. managers</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>730</y>
+      <w>650</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1 + managerManagement
+</panel_attributes>
+    <additional_attributes>630.0;120.0;630.0;170.0;90.0;170.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>810</y>
+      <w>240</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>DepoManagement
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>590</y>
+      <w>130</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1.. depeWorkers</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>730</y>
+      <w>740</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1 + depoManagement</panel_attributes>
+    <additional_attributes>720.0;170.0;90.0;170.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1420</x>
+      <y>550</y>
+      <w>230</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Stock
+-
+- id : int
+- name : string
+- price : double
+- type : string
+-
++ Product()
++ AddProduct(stock : Stock): bool
++ RemoveProduct(product :Product): bool
++ GetProduct(id: int):void
++ GetId(): int
++ GetName(): string
++ GetAllProduct():List&lt;Product&gt;
++ ToString(): string
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>1020</y>
+      <w>240</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>SalesManagement
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1130</x>
+      <y>590</y>
+      <w>300</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1.. salesRepresentatives</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;460.0;10.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>730</y>
+      <w>750</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1+\n salesManagement
+</panel_attributes>
+    <additional_attributes>730.0;340.0;630.0;340.0;630.0;170.0;90.0;170.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1120</x>
+      <y>790</y>
+      <w>440</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=0..n \n products</panel_attributes>
+    <additional_attributes>420.0;10.0;420.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1130</x>
+      <y>790</y>
+      <w>430</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=0..n \n products</panel_attributes>
+    <additional_attributes>410.0;10.0;410.0;310.0;10.0;310.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1410</x>
+      <y>160</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=white
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>240</y>
+      <w>620</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0;600.0;150.0;600.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>30</y>
+      <w>550</w>
+      <h>640</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n \nemployees</panel_attributes>
+    <additional_attributes>530.0;10.0;10.0;10.0;10.0;570.0;240.0;570.0;240.0;620.0</additional_attributes>
+  </element>
+</diagram>
